@@ -1,0 +1,10 @@
+Welcome to Scripty's wiki!
+
+== Inviting Scripty ==
+You can invite Scripty itself at its website: https://scripty.org/invite
+
+== Quick Links ==
+If you make a new page, perhaps for a command or something else, add it here!
+
+== Editing ==
+We use GitHub for authentication and editing, and you can hit the sign in button in the upper right to make an account and start editing.
