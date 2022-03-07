@@ -1,0 +1,19 @@
+The <code>setup</code> command allows you to initalize the bot in a server.
+
+== Arguments ==
+This command accepts 3 arguments, 1 required.
+
+{|
+|+ Arguments
+|-
+! Argument Name !! Required !! Description
+|-
+| text_channel || true || Channel to send transcriptions to
+|-
+| language || false || Target language to run the STT algorithm in
+|-
+| verbose || false || During transcriptions, be verbose? This adds no extra overhead.
+|}
+
+== Ratelimits ==
+This command is ratelimited to once every 60 seconds per guild.
