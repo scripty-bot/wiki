@@ -1,0 +1,17 @@
+We're glad you've decided to pick Scripty as your speech-to-text bot of choice.
+
+== Step 1: Invite ==
+You've probably already invited the bot to your server of choice, but if you haven't, head on over to https://scripty.org/invite.html and follow the steps there, then either <strike>follow the steps there</strike> (soon™) or return back here.
+
+== Step 2: Pick a target channel ==
+Now, pick a channel where you'd like transcriptions sent to.
+
+This can be something like a <code>voice-text</code> for people to talk in text if they can't talk in voice chats. We recommend making it not a general chatting channel, as it can get relatively spammy.
+
+== Step 3: Initialize that channel ==
+Once you've picked your channel, type <code>/setup</code> (or <code>~setup</code>, as we still support prefix commands). The first argument should be the channel you want, like <code>/setup text_channel: #transcriptions</code>, if using slash commands, or like <code>~setup #transcriptions</code> if using prefix commands.
+
+You can add extra details to the setup command, perhaps if you'd like to change the bot's language. A full list of those extra details is available on the command's help page: [[en/Commands/setup]]
+
+== Step 4: Join a voice chat ==
+The initial setup is now complete. Now, you just need to join a voice chat and invite the bot in! Once you're in a voice chat, run <code>/join</code> (or <code>~join</code>). The bot will automatically join the voice chat and begin transcripting. You're now done!
